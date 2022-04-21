@@ -1,0 +1,59 @@
+.FeedbackCard {
+    text-align: center;
+	background-color: #FFFFFF;
+    color: #161616;
+    max-height: 410px;
+    width: 348px;
+    margin: auto;
+    top: 285px;
+    font-family: "Titillium Web";
+    font-size: 14px;
+}
+
+.FeedbackCard .FeedbackContainer {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-auto-rows: auto;
+}
+
+.FeedbackCard .TopMessage {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 41px;
+}
+
+.FeedbackCard .Icons {
+    height: 17px;
+    width: 17px;
+}
+
+.FeedbackCard button {
+    padding: 3px, 12px, 3px, 12px;
+    background-color: transparent;
+    width: 67px;
+    height: 32px;
+    gap: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.FeedbackCard .SkipBtn, .FeedbackCard .SecondBtn {
+    cursor: pointer;
+    font-family: 'Titillium Web';
+}
+
+.FeedbackCard .MainBtn {
+    background-color: #0069D9;
+}
+
+.FeedbackCard .SecondBtn:hover {
+    background-color: #0069D9;
+}
+
+/* when hovering .SecondBtn, chnage the style of .MainBtn */
+.FeedbackCard .SecondBtn:hover + .MainBtn{
+    background-color: #FFFFFF;
+}

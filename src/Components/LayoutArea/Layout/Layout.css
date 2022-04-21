@@ -1,0 +1,15 @@
+.Layout {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 15% 80% 5%;
+}
+
+.Layout .Bottom {
+    width: 100%;
+    position: absolute; 
+    margin: auto;
+    bottom: 100px;
+    text-align: center;
+}
+

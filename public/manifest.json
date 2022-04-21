@@ -1,0 +1,15 @@
+{
+  "short_name": "Feedback module",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "feedback.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

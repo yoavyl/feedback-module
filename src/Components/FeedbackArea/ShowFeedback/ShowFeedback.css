@@ -1,0 +1,23 @@
+.ShowFeedback {
+	width: 100%;
+	text-align: left;
+}
+
+.ShowFeedback .FeedbackBox {
+	max-height: 174px;
+	width: 184px;
+	text-align: left;
+    overflow: auto;
+}
+
+.ShowFeedback h4 {
+	text-align: center;
+}
+
+.ShowFeedback .Bottons {
+	float: right;
+	margin-top: 11px;
+	margin-bottom: 45px;
+	box-sizing: content-box;
+	text-align: center;
+}
